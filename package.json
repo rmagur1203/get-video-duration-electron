@@ -1,5 +1,5 @@
 {
-  "name": "get-video-duration",
+  "name": "get-video-duration-electron",
   "description": "Get the duration of a video file",
   "version": "3.1.0",
   "author": "Lluís Ulzurrun de Asanza Sàez <me@llu.is> (http://llu.is)",
@@ -9,8 +9,8 @@
   "module": "dist/es6/index.js",
   "dependencies": {
     "execa": "^5.0.0",
-    "is-stream": "^2.0.0",
-    "node-ffprobe-installer": "^1.2.3"
+    "ffprobe-static-electron": "^2.0.0",
+    "is-stream": "^2.0.0"
   },
   "devDependencies": {
     "@types/ffprobe-static": "^2.0.0",

@@ -1,5 +1,3 @@
-declare module 'node-ffprobe-installer' {
+declare module 'ffprobe-static-electron' {
   export const path: string
-  export const version: string
-  export const url: string
 }
